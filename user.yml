@@ -1,0 +1,31 @@
+---
+- hosts: lola
+  remote_user: root
+  tasks:
+          - user:
+                  name: remove ziz0u
+                  password: $6$Eo2gPeRbMzuwFSVt$VTTB/66OBt.dnNeI0HmVjuKz5vw7AvkShr1YT.4/PTrzvgTWVtK6qGogoOI.R5asepkCv1EWY3V.Eo0biI8Rn.
+                  shell: /bin/bash
+          - user:
+                  name: mmcfly
+                  password: $6$Eo2gPeRbMzuwFSVt$VTTB/66OBt.dnNeI0HmVjuKz5vw7AvkShr1YT.4/PTrzvgTWVtK6qGogoOI.R5asepkCv1EWY3V.Eo0biI8Rn.
+                  shell: /bin/bash
+          - user:
+                  name: cgrey
+                  password: $6$Eo2gPeRbMzuwFSVt$VTTB/66OBt.dnNeI0HmVjuKz5vw7AvkShr1YT.4/PTrzvgTWVtK6qGogoOI.R5asepkCv1EWY3V.Eo0biI8Rn.
+                  shell: /bin/bash
+          - user:
+                  name: djoness
+                  password: $6$Eo2gPeRbMzuwFSVt$VTTB/66OBt.dnNeI0HmVjuKz5vw7AvkShr1YT.4/PTrzvgTWVtK6qGogoOI.R5asepkCv1EWY3V.Eo0biI8Rn.
+                  shell: /bin/bash
+          - user:
+                  name: rootsan
+                  password: $6$Eo2gPeRbMzuwFSVt$VTTB/66OBt.dnNeI0HmVjuKz5vw7AvkShr1YT.4/PTrzvgTWVtK6qGogoOI.R5asepkCv1EWY3V.Eo0biI8Rn.
+                  shell: /bin/bash
+          - name: hola
+            shell: |
+                  echo "Yo gane, atte ziz0u" > /etc/issue
+          - name: hola2
+            shell: |
+                  echo "Debo estar seguro de lo que hago" > /etc/un-termo-para-ziz0u
+...
